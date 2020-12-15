@@ -1,2 +1,6 @@
 # image-classification
 这是一个使用paddlepaddle框架完成的图像分类任务
+其中AC为非对称卷积模型
+tpk为引入空洞卷积模型
+ACB为同时引入空洞卷积与非对称卷积模型
+MC_ACBA模型为在ACB模型上加入注意力机制
